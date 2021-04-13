@@ -1,3 +1,5 @@
+import { Component, createElement, render } from "../src/lib.js";
+
 class List extends Component {
   constructor() {
     super();

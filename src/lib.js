@@ -71,3 +71,5 @@ function renderNode(node) {
 function render(node, element) {
   element.appendChild(renderNode(node));
 }
+
+export { createElement, render, Component };
